@@ -1,0 +1,24 @@
+{
+  "name": "test_models",
+  "version": "1.0.0",
+  "description": "abc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@loancrate/prisma-schema-parser": "^2.0.0",
+    "@mrleebo/prisma-ast": "^0.12.0",
+    "@prisma/client": "^5.13.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "prisma": "^5.13.0",
+    "prisma-schema-dsl": "^2.2.0"
+  },
+  "devDependencies": {
+    "prisma-json-schema-generator": "^5.1.3"
+  }
+}
